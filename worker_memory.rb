@@ -1,6 +1,3 @@
-require 'pry'
-require "bundler"
-Bundler.setup
 require 'job_reactor'
 
 JR.run! do

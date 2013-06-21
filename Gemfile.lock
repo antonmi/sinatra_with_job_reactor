@@ -1,12 +1,3 @@
-GIT
-  remote: git@github.com:antonmi/job_reactor.git
-  revision: d4a338f97bae5a33ad51193e6de9a59394576191
-  specs:
-    job_reactor (0.6.0)
-      em-hiredis
-      eventmachine
-      redis
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -19,6 +10,10 @@ GEM
       hiredis (~> 0.4.0)
     eventmachine (1.0.3)
     hiredis (0.4.5)
+    job_reactor (0.6.0)
+      em-hiredis
+      eventmachine
+      redis
     method_source (0.8.1)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
@@ -46,7 +41,7 @@ PLATFORMS
 
 DEPENDENCIES
   async_sinatra
-  job_reactor!
+  job_reactor
   pry
   puma
   sinatra

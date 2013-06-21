@@ -1,8 +1,4 @@
 require 'sinatra/async'
-require 'pry'
-require "bundler"
-Bundler.setup
-
 require 'job_reactor'
 
 JR.wait_em_and_run do

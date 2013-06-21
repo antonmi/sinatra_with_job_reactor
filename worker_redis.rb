@@ -1,9 +1,5 @@
-require 'pry'
-require "bundler"
-Bundler.setup
 require 'job_reactor'
 
-JR.config[:logger_method] = nil
 JR.run! do
   JR.start_node({
                     storage: 'redis_storage',
